@@ -14,7 +14,7 @@ import com.tampieri.lojavirtual.services.SmtpEmailService;
 
 @Configuration
 @Profile("dev")
-public class devConfig {
+public class DevConfig {
 
 	@Autowired
 	private DBService dbService;
